@@ -9,6 +9,11 @@ get '/' do
   "Hello world"
 end
 
+get "/sinatra" do
+	"Hello Sinatra"
+end
+
+
 
 
 # go to the command line and run  'curl http://localhost:4567' - makes http request
@@ -45,13 +50,6 @@ end
 ##################
 
 
-get '/' do
-	"Hello world"
-end
-
-get "/sinatra" do
-	"Hello Sinatra"
-end
 
 
 
